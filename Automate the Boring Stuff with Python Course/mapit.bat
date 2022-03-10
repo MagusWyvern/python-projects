@@ -1,0 +1,1 @@
+@py.exe D:\Documents\automate-the-boring-stuff\mapit.py %*
