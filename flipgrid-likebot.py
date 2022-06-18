@@ -5,11 +5,14 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 
+# Chrome WebDriver PATH location
 PATH = "C:\Program Files (x86)\ChromeDriver\chromedriver.exe"
 driver = webdriver.Chrome(PATH)
 
+# Get the flipgrid video page
 driver.get("https://flipgrid.com/xxxxxxxx")
 
+# Main loop function
 n = 0
 while n != 1000:
     main = WebDriverWait(driver, 10).until(
