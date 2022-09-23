@@ -17,6 +17,7 @@ def generateCombine(L):
                                         for j in range(10):
                                             # Change the first two arguments here to change the birth year
                                             print(str(0) + str(6) + str(a) + str(b) + str(c) + str(d) + str(e) + str(f) + str(g) + str(h) + str(i) + str(j))
+                                            
 
 generateCombine([1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1])                                       
 

@@ -10,7 +10,7 @@ time.sleep(5)
 
 currentTime = str(time.strftime("%Y%m%d%H%M%S"))
 
-fileName = ".//scale-union//" + currentTime + '.png'
+fileName = ".//screenshots//" + currentTime + '.png'
 
 browser.save_screenshot(fileName)
 
