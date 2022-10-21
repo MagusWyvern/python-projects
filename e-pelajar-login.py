@@ -10,7 +10,7 @@ PATH = "C:\Program Files (x86)\ChromeDriver\chromedriver.exe"
 driver = webdriver.Chrome(PATH)
 
 # Navigate to the webpage
-driver.get("http://mrsmgemencheh.edu.my/ePelajar/Login.asp")
+driver.get("https://mrsmgemencheh.edu.my/ePelajar/Login.asp")
 
 # Locate the form
 main = WebDriverWait(driver, 10).until(
