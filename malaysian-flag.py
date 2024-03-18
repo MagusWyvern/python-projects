@@ -1,6 +1,8 @@
 import turtle as trtl
 trtl.speed(speed=2)
 
+# This script draws the Malaysian flag
+
 # color(r, g, b)
 merah = (255, 0, 0)
 biru = (0, 0, 255)
